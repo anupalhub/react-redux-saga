@@ -1,0 +1,41 @@
+.navbar-nav a{
+  margin-right: 10px;
+  color:#333;
+}
+.navbar-nav a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #007bff;
+}
+.card-columns, .post-card{
+  margin-top: 20px;
+}
+.user-card{
+  margin-bottom: 30px;
+}
+.card-head{
+  font-weight: 600;
+}
+
+.title.card-text{
+  margin:20px 0 0 0;
+  font-weight: 600;
+}
+
+.spinner-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+
+}
+
+.delelteicon{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #e4e4e4;
+  padding: 2px 6px;
+  font-size: 10px;
+  border-top-right-radius: 4px;
+}
